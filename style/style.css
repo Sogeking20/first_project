@@ -127,7 +127,7 @@ main {
     width: 0;
 }
 
-.wrapper .category {
+.category {
     color: #7E7E82;
     font-size: 16px;
     margin-left: 30px;
@@ -139,9 +139,11 @@ main {
     }
 }
 
-.this_page {
+.category:hover{
     border: 2px solid #B8FFEC;
     border-radius: 6px;
+    cursor: pointer;
+    
 }
 
 .conteiner {
@@ -169,12 +171,16 @@ main {
     font-weight: 500;
     width: 132px;
     height: 26px;
-    justify-content: space-around;
     border-style: none;
     background-color: rgba(255, 255, 255, 0);
     vertical-align: baseline;
-    margin: 10px 0px 10px 20px;
+    margin: 15px 0px 20px 0px;
     display: flex;
+    gap: 5px
+}
+
+#btn_more_read:hover {
+    cursor: pointer 
 }
 
 #btn_more_read > img{
